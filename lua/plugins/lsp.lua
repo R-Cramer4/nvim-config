@@ -17,7 +17,7 @@ local servers = {
   clangd = {},
   -- gopls = {},
   -- pyright = {},
-  -- rust_analyzer = {},
+  rust_analyzer = {cmd = {"rustup", "run", "stable", "rust_analyzer"}},
   -- tsserver = {},
   html = { filetypes = { 'html', 'twig', 'hbs'} },
 
@@ -25,6 +25,7 @@ local servers = {
     Lua = {
       workspace = { checkThirdParty = false },
       telemetry = { enable = false },
+      diagnostics = {globals = {'vim'}},
     },
   },
 }
