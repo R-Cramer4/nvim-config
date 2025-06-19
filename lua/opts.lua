@@ -1,15 +1,14 @@
+vim.g.mapleader = ' '
+vim.g.maplocalleader = ' '
 
--- line numbbers
+-- line nuumbers
 vim.wo.number = true
-vim.wo.relativenumber = true
 
 -- mouse mode
 vim.o.mouse = 'a'
 
--- break indent
 vim.o.breakindent = true
 
--- save undo history
 vim.o.undofile = true
 
 -- tabs
@@ -24,15 +23,13 @@ vim.opt.smartindent = true
 vim.o.ignorecase = true
 vim.o.smartcase = true
 
--- update time
-vim.o.updatetime = 200
+vim.o.updatetime = 50
 vim.wo.signcolumn = 'yes'
-
--- colorscheme
-vim.o.termguicolors = true
--- vim.cmd [[colorscheme onedark]]
 
 vim.o.completeopt = 'menuone,noselect'
 
--- scroll
-vim.opt.scrolloff = 8
+vim.opt.scrolloff = 4
+
+-- removing netrw so the file tree works properly
+vim.g.loaded_netrw       = 1
+vim.g.loaded_netrwPlugin = 1

@@ -1,5 +1,9 @@
-return {
+local M = {
     'windwp/nvim-autopairs',
     event = "InsertEnter",
-    opts = {} -- this is equalent to setup({}) function
+    config = true
+    -- use opts = {} for passing setup options
+    -- this is equivalent to setup({}) function
 }
+
+return M
