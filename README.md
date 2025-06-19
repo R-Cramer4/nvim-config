@@ -11,6 +11,7 @@
 - [Autopairs](https://github.com/windwp/nvim-autopairs)
 - [Indent Blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
 - [Nvim-Tree](https://github.com/nvim-tree/nvim-tree.lua)
+- [Comment](https://github.com/numToStr/Comment.nvim)
 
 
 ### Colorscheme
