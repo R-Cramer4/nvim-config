@@ -38,9 +38,7 @@ vim.keymap.set('n', ']d', vim.diagnostic.goto_next, { desc = 'Go to next diagnos
 vim.keymap.set('n', '<leader>e', vim.diagnostic.open_float, { desc = 'Open floating diagnostic message' })
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostics list' })
 
-
 -- telescope keymaps
-
 local builtin = require "telescope.builtin"
 vim.keymap.set('n', "<leader>pf", builtin.find_files, {})
 vim.keymap.set('n', "<C-g>", builtin.git_files, {})
