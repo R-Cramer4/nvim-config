@@ -12,6 +12,7 @@
 - [Indent Blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
 - [Nvim-Tree](https://github.com/nvim-tree/nvim-tree.lua)
 - [Comment](https://github.com/numToStr/Comment.nvim)
+- [BarBar](https://github.com/romgrk/barbar.nvim)
 
 
 ### Colorscheme

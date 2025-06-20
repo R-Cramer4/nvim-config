@@ -26,8 +26,8 @@ function M.config()
         }
     })
 
-    require("lsp-zero").setup()
     require("mason").setup()
+    require("lsp-zero").setup()
 
     require("mason-lspconfig").setup_handlers {
         function (server_name)

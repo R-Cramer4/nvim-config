@@ -12,6 +12,7 @@ spec("plugins.indent-blankline")
 spec("plugins.autopairs")
 spec("plugins.file-tree")
 spec("plugins.comment")
+spec("plugins.barbar")
 
 
 require "plugins.lazy"
