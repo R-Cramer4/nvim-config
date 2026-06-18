@@ -72,3 +72,11 @@ map('n', '<A-0>', '<Cmd>BufferLast<CR>', opts)
 
 -- close buffer
 map('n', '<C-q>', '<Cmd>BufferClose<CR>', opts)
+
+
+-- Toggle comment on the current line in Normal mode
+vim.keymap.set('n', '<C-/>', 'gcc', { remap = true, desc = 'Toggle comment line' })
+
+-- Toggle comment on selected lines in Visual mode
+vim.keymap.set('v', '<C-/>', 'gc', { remap = true, desc = 'Toggle comment selection' })
+
