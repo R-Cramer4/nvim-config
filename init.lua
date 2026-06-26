@@ -6,14 +6,13 @@ spec("plugins.colorscheme")
 spec("plugins.treesitter")
 spec("plugins.telescope")
 spec("plugins.lualine")
--- spec("plugins.lsp-zero")
--- spec("plugins.mason")
 spec("plugins.cmp")
 spec("plugins.lsp")
 spec("plugins.indent-blankline")
 spec("plugins.autopairs")
 spec("plugins.file-tree")
 spec("plugins.barbar")
+spec("plugins.claude")
 
 
 require "plugins.lazy"

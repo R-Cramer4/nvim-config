@@ -19,6 +19,9 @@ vim.opt.expandtab = true
 
 vim.opt.smartindent = true
 
+-- so diffs open up on top of each other
+vim.opt.diffopt:append("horizontal")
+
 -- case insensitive searching
 vim.o.ignorecase = true
 vim.o.smartcase = true
