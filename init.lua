@@ -11,6 +11,7 @@ spec("plugins.lsp")
 spec("plugins.indent-blankline")
 spec("plugins.autopairs")
 spec("plugins.file-tree")
+spec("plugins.gitsigns")
 spec("plugins.barbar")
 spec("plugins.claude")
 
